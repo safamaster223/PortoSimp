@@ -1,0 +1,159 @@
+/* Global Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+    color: white;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #00aced;
+    cursor: grab;
+}
+
+/* CTA Button */
+.cta .btn {
+    text-decoration: none;
+    color: white;
+    background-color: #00aced;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta .btn:hover {
+    background-color: #005f8c;
+}
+
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+}
+
+/* Card Container */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.card-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.card-content {
+    flex: 1 1 1200px; /* Card melebar hingga 400px jika ada ruang */
+    max-width: 1205px; /* Batas maksimum lebar */
+    transition: all 0.3s ease; /* Efek smooth untuk perubahan ukuran */
+}
+/* Card */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 15px;
+    font-size: 1.5em;
+    text-align:center;
+}
+
+.card p {
+    margin: 0 15px 15px;
+    color: #555;
+}
+
+.card .btn {
+    display: block;
+    text-align: center;
+    margin: 15px;
+    padding: 10px 20px;
+    background-color: #00aced;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.card .btn:hover {
+    background-color: #005f8c;
+}
+
+/* Hover Animation */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #333; /* Warna latar */
+    color: white; /* Warna teks */
+    padding: 20px; /* Jarak dalam */
+    text-align: center; /* Teks rata tengah */
+    margin-top: 20px; /* Memberi jarak dari elemen sebelumnya */
+}
+
+footer .nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 15px;
+}
+
+footer .nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .nav-links a:hover {
+    color: #00aced;
+}
